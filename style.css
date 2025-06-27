@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .settings label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .checkboxes label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #password {
+    width: 80%;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  
+  .output {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .strength {
+    margin-top: 10px;
+  }
+  
+  body.dark {
+    background: #222;
+    color: #eee;
+  }
+  
+  body.dark .container {
+    background: #333;
+  }
+  
+  body.dark input, body.dark button {
+    background: #555;
+    color: #fff;
+  }
+  
